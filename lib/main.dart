@@ -219,7 +219,7 @@ class _HomePageState extends State<HomePage> {
           // Gambar makanan
           ClipRRect(
             borderRadius: BorderRadius.vertical(top: Radius.circular(10)),
-            child: Image.network(
+            child: Image.asset(
               imageUrl,
               height: 200,
               width: double.infinity,
